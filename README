@@ -1,7 +1,7 @@
 Sprint-0: CSV by jramosba
 In collaboration with anovatni, jshaper1, echoihau, ssompal1
 Total time spent: 15 hours
-https://github.com/cs0320-f2022/sprint-0-jpramosbarroso
+https://github.com/jpramosbarroso/sprint-0
 
 My implementation of the CSV assignment relies on 3 classes: Main, CSV_Parser, and Object_Parser.
 CSV_Parser takes in a reader object and returns a count-description of the file passed in, whereas
