@@ -1,0 +1,24 @@
+Sprint-0: CSV by jramosba
+In collaboration with anovatni, jshaper1, echoihau, ssompal1
+Total time spent: 15 hours
+https://github.com/cs0320-f2022/sprint-0-jpramosbarroso
+
+My implementation of the CSV assignment relies on 3 classes: Main, CSV_Parser, and Object_Parser.
+CSV_Parser takes in a reader object and returns a count-description of the file passed in, whereas
+Object_Parser specifies the type of object that the CSV parser converts each row into. These two
+were designed separately in accordance to their different functions: the former being both
+end-user- and developer-centric and returning counts, and the later being only developer-centric
+and returning a list of objects. To minimize the risk of bugs, I separated the two classes and their
+respective functions. The Main class handles both of these classes and runs them, creating instances
+of each according to user-set parameters.
+
+There are no known bugs to my program — although it is important to note that I was unsure how to
+test for the Object_Parser class and its respective method, so it is likely that there may
+be some errors.
+
+I made sure that the CSV_Parser class was thoroughly tested, and tried to account for edge cases
+(empty CSV, no CSV) in my tests. The tests implemented ensure that the counts are all correct
+and that the code in CSV_Parser can operate under different forms of inputs.
+
+Running the tests is straightforward — the tests can be run individually on IntelliJ or collectively
+and can all be found in the Tests.java file.
